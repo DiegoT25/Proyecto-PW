@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(52, 63, 75);
+    height: 100%;
+}
+header{
+    display:flex;
+}
+
+.imagen_login {
+    flex: 1;
+}
+
+#imagen_menu{
+    height: 80px;
+    width: 80px;
+}
+
+.opciones_menu{
+   flex: 13;
+   margin-left: 0px; 
+   text-align: right;
+
+}
+
+.opciones_menu ul{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    color: white;
+    background-color:  rgb(52, 63, 75);;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu > li > a:hover{
+    background-color: rgb(98, 97, 97);
+}
+
+.opciones_derecha{
+    flex:3; 
+    padding-left: 20px;
+}
+
+.opcion_extra > li{
+    display: inline-block;
+}
+
+.opcion_extra > li > a{
+    display: block;
+}
+
+#img_derecha{
+    height: 50px;
+    width: 50px;
+}
+
+.contenedor{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.menu_lateral{
+    width: 250px;
+    height: 600px;
+    flex:1;
+}
+
+.botones{
+    list-style: none;
+    height: 500px;
+    padding-left: 10px;
+    margin: 0px 0px;
+    padding-top: 100px;
+    padding-right: 10px;
+    
+}
+
+.botones > li{
+    padding:2px;
+}
+
+.botones > li > a{
+    color: gray;
+    background-color:  white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+.botones > li > a:hover{
+    background-color: rgb(199, 192, 192);
+}
+
+.info_personal{
+    flex:4;
+    border:solid;
+    border-color: black;
+    height: 600px;
+}

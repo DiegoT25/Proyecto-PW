@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(52, 63, 75);
+    height: 100%;
+}
+/* IMAGEN IZQUIERDA MENU */ 
+
+.imagen_login {
+    margin-left: 100px;
+    margin-top: 10px;
+    float:left;
+}
+
+#imagen_menu{
+    height: 200px;
+    width: 200px;
+}
+
+/* BARRA DE MENU */ 
+
+.opciones_menu{
+    margin-left: 600px;
+    width: 500px;
+    height: 0px;
+    
+}
+
+.opciones_menu ul{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    color: white;
+    background-color:  rgb(52, 63, 75);;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu > li > a:hover{
+    background-color: rgb(98, 97, 97);
+}
+
+/* OPCIONES BUSCAR-PERFIL-TIENDA */
+.opciones_derecha{
+    margin-left: 1200px;
+    width: 300px; 
+    margin-top: 10px;
+}
+
+.opcion_extra > li{
+    display: inline-block;
+}
+
+.opcion_extra > li > a{
+    display: block;
+}
+
+#img_derecha{
+    height: 50px;
+    width: 50px;
+}
+
+/* TEXTO PÁGINA */
+
+.build_your_pc{
+
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+/* BOTONES BUILD FOR BEGGINERS Y ADVANCED BUILDING */
+
+.botones_building{
+    margin-left: 60px;
+    width: 500px;
+    height: 0px;
+    margin-top: 70px;
+    
+}
+
+.botones_building ul{
+    list-style: none;
+}
+
+.botones_begginers_advanced > li{
+    display: inline-block;
+    
+}
+
+.botones_begginers_advanced > li > a{
+    color: white;
+    background-color:  rgb(194, 91, 233);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.botones_begginers_advanced > li > a:hover{
+    background-color: rgb(98, 97, 97);
+}
+
+/* MENU INFERIOR */
+
+.menu_inferior{
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    height: 400x;
+    border-style: solid;
+    background-image: url("imagen_fondo_inferior.jpg");
+    background-size: cover;
+}
+
+::placeholder{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#email {
+    border-color: white;
+    background-color:transparent;
+    text-align: left;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    color:white;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo_inferior{
+    color: white;
+}
+
+#subscribe{
+    background-color:  rgb(194, 91, 233);
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

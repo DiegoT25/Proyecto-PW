@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(52, 63, 75);
+    height: 100%;
+}
+header{
+    display:flex;
+}
+
+.imagen_login {
+    flex: 1;
+}
+
+#imagen_menu{
+    height: 80px;
+    width: 80px;
+}
+
+.opciones_menu{
+   flex: 13;
+   margin-left: 0px; 
+   text-align: right;
+
+}
+
+.opciones_menu ul{
+    list-style: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu > li > a{
+    color: white;
+    background-color:  rgb(52, 63, 75);;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu > li > a:hover{
+    background-color: rgb(98, 97, 97);
+}
+
+.opciones_derecha{
+    flex:3; 
+    padding-left: 20px;
+}
+
+.opcion_extra > li{
+    display: inline-block;
+}
+
+.opcion_extra > li > a{
+    display: block;
+}
+
+#img_derecha{
+    height: 50px;
+    width: 50px;
+}
+
+.contenedor {
+    display:flex;
+    border: solid;
+    border-color: black;
+    height: 100%;
+    margin-left:550px;
+    margin-right: 550px;
+    margin-top:140px;
+}
+
+.create_login {
+    border: 1px;
+    border-style: solid;
+    background-color: rgb(36, 20, 69);
+    text-align: center;
+    width: 400px;
+    flex: 2;
+ 
+}
+
+#login {
+    border-color: white;
+    background-color: rgb(36, 20, 69);
+    text-align: left;
+    align-items: center;
+    width: 95%;
+    border-radius: 5px;
+    height: 30px;
+    color:white;
+    flex-direction: column;
+}
+
+#tittle_login{
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+::placeholder{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#create_bottom {
+    border-color: white;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    border-radius: 5px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#texto_login{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
