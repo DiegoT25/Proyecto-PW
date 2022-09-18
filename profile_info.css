@@ -101,7 +101,13 @@ header{
 }
 
 .botones > li > a:hover{
-    background-color: rgb(199, 192, 192);
+    background-color: rgb(222, 217, 217);
+}
+
+#profile{
+    background-image: url(color_rosa.png);
+    background-repeat: no-repeat;
+    background-size: 10px 40px;
 }
 
 .info_personal{
